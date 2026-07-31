@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+.contact-section {
+    
+  background-color: #a18b8b;
+  padding: 5%;
+}
+  .contact-box {
+    width: 80%;
+    margin: auto;
+  }
+    
+    
+    .left-box{
+      background-color: rgb(231, 219, 227);
+      padding: 5%;
+      width: 50%;
+      height: 400px; 
+      display: inline-block;
+      vertical-align: top;
+
+    }
+
+    
+.left-box h1  { 
+    text-align: center;
+   
+}
+
+
+.right-box {
+    background-color: white;
+  padding: 5%;
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+  .inputbox {
+    margin-bottom: 3%;
+}
+  
+}
+
+.right-box h3 {
+    margin-bottom: 2%;
+     text-align: left;
+}
+.right-box h1 {
+    margin-bottom: 2%;
+     text-align: center;
+}
+.left-box p {
+    margin-top: 2%;
+     text-align: center;
+
+}

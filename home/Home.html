@@ -1,0 +1,68 @@
+<!DOTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--بيدعم اي لغه-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive-->
+    <!--SEO-->
+    <meta name="description" content="my web design session 1"> <!--وصف للصفحه-->
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!--كلمات مفتاحيه-->
+    <meta name="author" content="marwa"> <!--اسم الكاتب-->
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home page</h1>
+    <form>
+        <label> first name</label>
+        <input type="text" name="first_name" placeholder="enter your first name">
+        <br>
+        <label> last name</label>
+        <input type="text" name="last_name" placeholder="enter your last name">
+        <br>
+        <div>
+            <label>email</label>
+            <input type="email" name="email_hhh" placeholder="enter your email" pattern="[a-z-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+        </div>
+        <div>
+            <label>password</label>
+            <input type="password" name="password_hhh" placeholder="enter your password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[.@#$%^!&*+_-])" required>
+
+        </div>
+        <div>
+            <label>Mobile Number</label>
+            <input type="tel" name="phone_hhh" placeholder="enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        
+    
+    
+        <div>
+            <label>gender</label>   
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="female">
+            <label>Female</label>
+        </div>
+        <label>Country</label>
+        <input list="countries" name="country">
+        <datalist id="countries">
+            <option value="USA">
+            <option value="Canada">
+            <option value="egypt">
+        </datalist>
+        
+        <br>
+        <label> Range</label>
+        <input type="range" name="range" min="300" max="500">
+
+        <address>
+            <label>Address</label>
+            <textarea name="address" placeholder="enter your address"></textarea>
+        </address>
+        <label>Image</label>
+        <input type="file" name="image" accept=".png,.jpg,.jpeg" required>
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
