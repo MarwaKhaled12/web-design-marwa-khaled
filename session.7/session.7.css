@@ -29,7 +29,7 @@
     margin:auto;
 }
 
-.card-content-1, .card-content-2, .card-content-3 {
+.card-content{
     padding: 3%;
    
 }
@@ -47,6 +47,7 @@
 }
  .card-img{
   width: 100%;
+  display: block;
  }
 .small-image img {
     width: 75px;
@@ -55,4 +56,28 @@
     border: 5px solid white;
     margin-top: -38px;
     margin-left: 75%;
+      position: relative;
+    z-index: 2;
+
+}
+.position-relative {
+    position: relative;
+}
+.card-overlay {
+    background-color: rgba(0, 0, 0, 0.569);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+}
+.new-card:hover .card-overlay {
+    display: block;
+}
+.card-overlay a {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
