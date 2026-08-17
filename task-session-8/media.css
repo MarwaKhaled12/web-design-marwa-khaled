@@ -1,0 +1,209 @@
+@media (max-width: 768.98px) {
+
+    .container {
+        width: 90%;
+    }
+
+    nav ul {
+        width: 50%;
+    }
+
+    .home-1 h1 {
+        font-size: 30px;
+    }
+
+    .home-1 button {
+        width: 25%;
+    }
+
+    .img {
+        width: 90%;
+    }
+
+    .welldoing-text {
+        width: 65%;
+    }
+
+    .welldoing-img {
+        width: 30%;
+    }
+
+    .organic-img {
+        width: 45%;
+    }
+
+    .organic-text {
+        width: 50%;
+    }
+
+    .organic-text h3 {
+        font-size: 25px;
+    }
+
+    .eat-img {
+        width: 35%;
+    }
+
+    .eat-text {
+        width: 60%;
+    }
+
+    .plan-box {
+        width: 90%;
+    }
+
+    footer ul {
+        width: 40%;
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    .container {
+        width: 90%;
+    }
+
+    /* Navbar */
+
+    nav ul {
+        display: none;
+    }
+
+
+    /* Home */
+
+    .home-1 {
+        padding: 5%;
+    }
+
+    .home-1 h1 {
+        font-size: 25px;
+    }
+
+    .home-1 p {
+        font-size: 13px;
+    }
+
+    .home-1 button {
+        width: 40%;
+    }
+
+    .img {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+
+    /* Wellbeing */
+
+    .welldoing-content {
+        flex-wrap: wrap;
+    }
+
+    .welldoing-text {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .welldoing-text div {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .welldoing-img {
+        display: none;
+    }
+
+
+    /* Organic */
+
+    .organic-content {
+        flex-wrap: wrap;
+    }
+
+    .organic-img {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    .organic-img img {
+        height: auto;
+    }
+
+    .organic-text {
+        width: 100%;
+    }
+
+    .organic-text h3 {
+        font-size: 25px;
+    }
+
+
+    /* Eat Section */
+
+    .eat-content {
+        flex-wrap: wrap;
+    }
+
+    .eat-img {
+        display: none;
+    }
+
+    .eat-text {
+        width: 100%;
+    }
+
+    .eat-text h2 {
+        text-align: center;
+    }
+
+    .eat-text div {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+
+    /* Last Section */
+
+    .last-img {
+        padding: 15% 5%;
+    }
+
+    .last-img h2 {
+        font-size: 22px;
+    }
+
+    .plan-box {
+        width: 80%;
+        flex-wrap: wrap;
+        margin: -5% auto 0;
+    }
+
+    .plan-item {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+
+    /* Footer */
+
+    footer .container {
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    footer ul {
+        width: 100%;
+    }
+}
